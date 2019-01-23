@@ -33,7 +33,7 @@ import { ProductDetailGuard } from './products/product-detail.guard';
       },
       {path: 'welcome', component: WelcomeComponent},
       {path: '', redirectTo: 'welcome', pathMatch: 'full'}
-    ], {useHash: true})
+    ])
   ],
   bootstrap: [AppComponent]
 })
